@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class BoyKilo {
+
+  public static void main(String[] args){
+
+    double b, k;
+    Scanner sc = new Scanner(System.in);
+    
+    System.out.println("boy - kilo bilgilerini giriniz,");
+    System.out.print("boy(m) : "); b= sc.nextDouble();
+    System.out.print("kilo(kg) : "); k= sc.nextDouble();
+  
+    double indeks = k / (b * b);
+    System.out.printf("vucut kitle indeksiniz : %f", indeks);
+  
+  }
+
+
+
+
+
+}
