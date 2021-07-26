@@ -32,6 +32,7 @@ class SifreKontrol{
            else{
              //sifre = '\0';
              sifre = password;
+             System.out.println("Sifre olusturuldu.");
              break;
            }
          }
